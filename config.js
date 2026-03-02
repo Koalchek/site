@@ -1,0 +1,238 @@
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡿⠇⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⠀⠀⠀⡸⣞⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠃⠀⠀⠀⢀⣧⢿⣽⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⢴⣿⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⣼⣞⡿⣞⡅⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠀⠀⠀⣰⣟⢾⣽⢫⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣠⢤⣶⡻⣞⣿⣺⢯⣽⣳⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⢠⣄⡀⠀⠀⠀⠀⠙⢦⡀⠀⠀⠀⠀⣀⣠⣤⣿⣽⣻⢾⣽⣷⣾⣽⣻⣞⣷⣳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣶⣄⡀⠀⠀⠀⣉⣲⣴⢶⣞⡿⣽⣞⡷⣯⢿⡽⣞⣿⠟⠋⠁⠉⠈⠳⣟⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⢶⣾⣿⡽⣯⣟⡾⣽⡷⣯⣟⡽⡾⣽⡯⠁⠀⠀⠀⠀⠀⠀⢮⣭⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢞⣿⣿⢯⡿⣿⣯⣟⣷⣯⢿⣳⣟⡷⣽⣼⣻⣽⠀⠀⠀⠀⠀⠀⠀⢀⣼⡯⡗⠋⠤⠀⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾⣿⣿⣯⣽⣾⣿⣾⣗⡿⣯⡷⣯⣟⡷⣞⣼⣿⣀⠀⠀⠀⠀⢀⣠⡿⣏⡗⠈⠐⠈⠅⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠛⠏⠉⠉⠽⢟⢿⣿⣿⣿⣿⣷⣻⢾⡽⣞⡷⠄⡹⣶⢿⣻⢿⣻⡽⢯⣼⢦⠶⠁⠈⠀⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣯⠇⠀⠀⠀⠀⠀⠁⣽⣿⣿⣿⣷⣯⣿⣽⣛⡦⠀⠀⢩⣿⣹⢯⣷⢻⣟⠺⢣⡖⣘⠤⠓⠀⠀⠀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣿⡃⠁⠀⠀⠀⢀⣤⣾⣟⢿⣻⣿⣿⣟⡾⣽⡳⠄⠎⢳⣯⢯⣟⡾⢯⣞⣯⣓⠉⢀⠀⠀⡄⢢⡀⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣷⣷⣶⣳⣶⣺⣿⣿⣳⢯⣟⣿⣿⣳⢯⠛⠅⠃⠀⠀⣴⣿⡿⣬⢶⠾⠙⣊⣥⠾⡒⠊⢁⢠⠣⣌⠀⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⡽⣾⡽⣯⣟⣿⡿⣯⣿⣿⣾⢿⣿⠳⢏⣈⢠⠀⠀⣰⢿⡿⣽⣉⡶⠌⠋⠉⣀⡀⠁⠀⠀⠀⣘⡐⣂⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣽⣳⣟⣳⣟⣾⣽⣿⣿⣿⣿⣿⣦⣜⡻⡽⠆⠧⣴⡟⣯⢟⡳⣭⠲⠄⠐⠀⠀⠀⠈⠁⠉⠑⢊⡕⢃⠄⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣾⣿⣯⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣾⢧⠀⠹⠾⡵⡞⡽⢢⣃⠐⠀⠀⠄⡐⠀⠀⠀⡘⢦⠘⣌⠀⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠹⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠒⡈⠀⡀⠄⡑⠢⣉⠴⣈⣆
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣏⡴⣶⣵⣢⢤⢠⡀⡄⢠⠐⡰⢌⡱⠀⡁⡀⠆⡥⠆⡥⣛⡽⣾
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠔⠉⠀⠀⢽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⣻⢷⣯⡽⣞⣷⣻⡼⣡⢋⡔⠣⠜⡐⢐⠠⡓⣤⣙⣲⣽⣻⢷
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡿⣽⣞⣷⣻⡴⣣⢜⡱⣊⡕⣊⠠⡙⡰⣭⢷⣯⣿⢿
+//
+// By THE 2e5d on discord
+
+
+const config = {
+    general: {
+        title: "koalchek",
+        backgroundColor: "  a(3, 4, 36, 0.76)",
+        backgroundVideo: scr="./backgroundVideo.mp4",
+        titleEffect: true, // Added for title effect toggle
+        backgroundMusic: {  // Add this section
+            enabled: true,
+            url: "",
+            volume: 0.5,
+            loop: true,
+            autoplay: true
+        }
+    },
+    profile: {
+        enabled: true, // lol idk why i add this 
+        pictureUrl: scr="./koalchek.png", // pfp
+        name: "Koalchek",
+        location: "", // this is the location i remove it 
+        bio: "-1", // dont change
+        bios: [
+            { text: "Lucky", font: 'font-DesirableCalligraphy' },
+            { text: "Pray for money", font: 'font-DesirableCalligraphy' }
+        ],
+        showOnlineDot: false,
+        showNameGlow: true,
+        uid: "UID 0",
+
+
+        // Profile fallback SVG path for when image fails to load
+        fallbackIconPath: "M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12Zm-6 8q-.825 0-1.413-.588T4 18v-.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.588 1.413T18 20H6Z",
+        badges: [
+
+        ]
+    },
+    social: {
+        enabled: true,
+        links: [
+            {
+                name: "right",
+                url: "https://steamcommunity.com/profiles/76561199403025909/",
+                enabled: true
+            },
+            {
+                name: "github",
+                url: "https://github.com/template",
+                enabled: false
+            },
+            {
+                name: "spotify",
+                url: "https://open.spotify.com/playlist/",
+                enabled: false
+            },
+            {
+                name: "xbox",
+                url: "https://xbox.com",
+                enabled: false
+            },
+            {
+                name: "mail",
+                url: "mailto:example@example.com",
+                enabled: false
+            },
+            {
+                name: "x",
+                url: "https://x.com",
+                enabled: false
+            },
+            {
+                name: "telegram",
+                url: "https://t.me/koalchek",
+                enabled: true
+            },
+            {
+                name: "instagram",
+                url: "https://instagram.com",
+                enabled: false
+            },
+            {
+                name: "youtube",
+                url: "https://youtube.com",
+                enabled: false
+            },
+            {
+                name: "left",
+                url: "https://www.instagram.com/koalchek/",
+                enabled: true
+            }
+
+
+        ]
+    },
+    discord: {
+        enabled: false,
+        userId: "Template", // this is YOUR USER ID FOR THE API NOT DISCORD ID 
+        apiUrl: "https://lantern.rest/api/v1/users/", // use lanyard.rest or lantern.rest
+        updateInterval: 10000, // this is how fast it updates
+        fallbackData: {
+            username: "Template", // fall back data 
+            discriminator: "0", 
+            avatar: "https://cdn.discordapp.com/avatars/1430655091584667660/3cf1eaf2f603852f770a797524d96cd6.gif",
+           
+        }
+    },
+   viewCounter: {
+        enabled: false,
+        initialCount: 21, // this is for the fake veiwcounter
+        jsonBlob: {
+            enabled: true, // this is for REAL Veiwcounter turn off for fake one
+            apiUrl: "https://api.jsonblob.com/api/jsonBlob/", // dont change
+            blobId: "019c5822-5429-7c76-b920-341d6a973ef5" // change this 
+        }
+    },
+    musicPlayer: {
+        enabled: true,
+        playlist: [
+            {
+                title: "Juice WRLD - Anxiety", // name 
+                audioUrl: "https://files.catbox.moe/3hgxgy.mp3", // Audio URl
+                coverUrl: "https://files.catbox.moe/d12klc.png", // cover image
+                volume: 0.05
+
+            },
+            {
+                title: "Платина - Иней!",
+                audioUrl: "https://files.catbox.moe/26o0hv.mp3",
+                coverUrl: "https://i.scdn.co/image/ab67616d0000b273c54346a565191afe237d7d17", // cover image
+                volume: 0.05
+            },
+            {
+                title: "Friendly thug 52 NGG - Calmer",
+                audioUrl: "https://files.catbox.moe/17rc4a.mp3",
+                coverUrl: "https://i.scdn.co/image/ab67616d00001e02399567e5b2c68b0b06e03d77", // cover image
+                volume: 0.05
+            },
+            {
+                title: "Heronwater - Против ветра",
+                audioUrl: "https://files.catbox.moe/778o6l.mp3",
+                coverUrl: "https://i.scdn.co/image/ab67616d00001e02f7daf8c48ae2ba184f79a71c", // cover image
+                volume: 0.05
+            },
+            {
+                title: "Heronwater - Зависим",
+                audioUrl: "https://files.catbox.moe/qg06f8.mp3",
+                coverUrl: "https://i.scdn.co/image/ab67616d00001e02b1e2e98fee9bbc85540c5acd", // cover image
+                volume: 0.05
+            }
+        ]
+    },
+      // you don't need all of this info btw
+    spotifyWidget: {
+        enabled: false,
+        playlist: {
+            id: "6VHAp67mDd3YerST4qsOpJ",
+            name: "gothangelz",
+            creator: "brazi",
+            saves: "7,766",
+            songs: "48",
+            duration: "1 hr 15 min",
+            type: "Public Playlist",
+            artUrl: "https://mosaic.scdn.co/640/ab67616d00001e0212e6d3e3e8e6d9b5a5a5a5a5ab67616d00001e0212e6d3e3e8e6d9b5a5a5a5a5ab67616d00001e0212e6d3e3e8e6d9b5a5a5a5a5ab67616d00001e0212e6d3e3e8e6d9b5a5a5a5a5"
+        },
+        clickAction: "open_playlist"
+    },
+     // This is 3d card effect
+    tiltEffect: {
+        enabled: true,
+        rotation: 15,
+        verticalRotation: 12,
+        smoothness: 0.15
+    },
+  //cutsom mouse
+    mouseEffects: {
+        enabled: true,
+        cursorUrl: scr="./cursor.cur",
+        cursorSize: 27
+    }
+};
+
+const socialIcons = {
+    github: `<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>`,
+    x: `<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>`,
+    telegram: `<image href="https://files.catbox.moe/jyeopw.png" width="24" height="24" />`,
+    instagram: `<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>`,
+    youtube: `<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>`,
+    spotify: `<path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>`,
+    xbox: `<path d="M7.202 15.967a7.987 7.987 0 0 1-3.552-1.26c-.898-.585-1.101-.826-1.101-1.306 0-.965 1.062-2.656 2.879-4.583C6.459 7.723 7.897 6.44 8.052 6.475c.302.068 2.718 2.423 3.622 3.531 1.43 1.753 2.088 3.189 1.754 3.829-.254.486-1.83 1.437-2.987 1.802-.954.301-2.207.429-3.239.33Zm-5.866-3.57C.589 11.253.212 10.127.03 8.497c-.06-.539-.038-.846.137-1.95.218-1.377 1.002-2.97 1.945-3.95.401-.417.437-.427.926-.263.595.2 1.23.638 2.213 1.528l.574.519-.313.385C4.056 6.553 2.52 9.086 1.94 10.653c-.315.852-.442 1.707-.306 2.063.091.24.007.15-.3-.319Zm13.101.195c.074-.360-.019-1.02-.238-1.687-.473-1.443-2.055-4.128-3.508-5.953l-.457-.575.494-.454c.646-.593 1.095-.948 1.58-1.25.381-.237.927-.448 1.161-.448.145 0 .654.528 1.065 1.104a8.372 8.372 0 0 1 1.343 3.102c.153.728.166 2.286.024 3.012a9.495 9.495 0 0 1-.6 1.893c-.179.393-.624 1.156-.82 1.404-.1.128-.1.127-.043-.148ZM7.335 1.952c-.67-.34-1.704-.705-2.276-.803a4.171 4.171 0 0 0-.759-.043c-.471.024-.45 0 .306-.358A7.778 7.778 0 0 1 6.47.128c.8-.169 2.306-.17 3.094-.005.85.18 1.853.552 2.418.9l.168.103-.385-.20c-.766-.038-1.88.27-3.078.853-.361.176-.676.316-.699.312a12.246 12.246 0 0 1-.654-.319Z"/>`,
+    mail: `<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>`
+  //  Template: `<path d="This is a svg path use flaticon.com "/>`
+};
+
+const socialLinkNames = {
+    github: "GitHub",
+    x: "X (Twitter)",
+    telegram: "Telegram",
+    instagram: "Instagram",
+    youtube: "YouTube",
+    spotify: "Spotify",
+    xbox: "Xbox",
+    mail: "Email"
+//    Template // this is the id name: "Template"// This is the tooltip 
+};
+
+// Discord status images don't change these if you don't have a url to use OK
+const discordStatusImages = {
+    online: 'https://y2kmoney.pages.dev/img/online.png',
+    idle: 'https://y2kmoney.pages.dev/img/idle.png',
+    dnd: 'https://y2kmoney.pages.dev/img/dnd.png',
+    offline: 'https://y2kmoney.pages.dev/img/offline.png',
+    invisible: 'https://y2kmoney.pages.dev/img/offline.png'
+};
